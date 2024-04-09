@@ -117,6 +117,7 @@ article p {
     margin: 10px;
     width: 25px;
     height: auto;
+    cursor: pointer;
 }
 
 #icone img:first-child{
@@ -137,7 +138,7 @@ article p {
 
 #name{
     color: #d51b12;
-    font-weight: bold;
+    padding: 5px;
 }
 
 #job{
