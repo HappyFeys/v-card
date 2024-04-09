@@ -7,7 +7,7 @@
 body{
     background-color: #f0f0ef;
     font-family: "Inter", sans-serif;
-    font-weight: 200;
+    font-weight: 300;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,9 +81,9 @@ article p {
 
 #containerMain a{
     text-decoration: none;
-    color: #333;
+    color: #000;
     font-family: "Inter", sans-serif;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 #containerRight{
@@ -111,6 +111,7 @@ article p {
     width: 160px;
     height: 160px;
     margin: 15px auto;
+    padding-left: 25px;
 }
 
 #icone img{
