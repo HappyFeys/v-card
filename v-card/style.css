@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f0f0ef;
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+article{
+    width: 450px;
+    height: 728px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #e5e5df;
+    border: 1px solid #333;
+    border-radius: 20px;
+    box-shadow: 3px 6px 8px 0px rgba(0,0,0,0.73);
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+hr{
+    width: 100%;
+}
+
+#logoNoirRouge{
+    width: 200px;
+    height: auto;
+    padding: 15px;
+    margin: 0;
+}
+
+img{
+    width: 38px;
+    height: auto;
+    margin: 10px 20px;
+}
+
+article p {
+    padding: 10px;
+}
+
+#containerMain{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#containerLeft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    text-wrap: nowrap;
+    border-right: 0.5px solid #333;
+}
+
+#linkSite{
+    transform: rotate(-90deg);
+    padding: 0;
+}
+
+#download{
+    display: flex;
+}
+
+#icone{
+    display: flex;
+    flex-direction: column;
+}
+
+#containerMain a{
+    text-decoration: none;
+    color: #333;
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+}
+
+#containerRight{
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#containerIcone{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#download{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#QR{
+    width: 160px;
+    height: 160px;
+    margin: 15px auto;
+}
+
+#icone img{
+    margin: 10px;
+    width: 25px;
+    height: auto;
+}
+
+#icone img:first-child{
+    margin-top: 15px;
+}
+
+#red{
+    background-color: #d51b12;
+    height: 900px;
+    width: 1050px;
+    position: absolute;
+    z-index: -1;
+    border-radius:83% 0% 10% 10%/ 90% 11% 10% 10%;
+    transform: rotate(45deg);
+    top: 275px;
+    left: 110px;
+}
+
+#name{
+    color: #d51b12;
+    font-weight: bold;
+}
+
+#job{
+    font-weight: bold;
+}
+
+#mail{
+    font-weight: 300;
+}
